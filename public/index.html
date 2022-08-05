@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script>
+		fetch('/addVisit', {method: 'POST'})
+		</script>
+		<style>
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			button {
+				font-size: 14px;
+			}
+			div {
+				display: flex;
+				justify-content: center;
+				align-content: center;
+				flex-direction: column;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+		<h1>Welcome to my website</h1>
+		<button onclick = "fetch('/addSignup', {method: 'POST'})">Sign up!</button>
+		</div>
+	</body>
+</html>
